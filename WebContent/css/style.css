@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+ul,ol,dl {
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #000000;
+}
+
+a:link {
+    color: #414958;
+    text-decoration: none;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+a:visited {
+    color: #4E5869;
+    text-decoration: none;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+a:hover,a:active,a:focus {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.container {
+    width: 80%;
+    max-width: 1260px;
+    min-width: 780px;
+    background-color: #FFF;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 10px 0;
+    color: #000000;
+}
+
+.content ul,.content ol {
+    padding: 0 15px 15px 40px;
+}
+
+.fltrt {
+    float: right;
+    margin-left: 8px;
+}
+
+.fltlft {
+    float: left;
+    margin-right: 8px;
+}
+
+.clearfloat {
+    clear: both;
+    height: 0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+.container .content .container .container div {
+    color: #000000;
+}
+
+.container .content .container .container {
+    color: #000000;
+    text-align: left;
+}
+
+.h1 {
+    font-size: 55px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 5px;
+    right: 100px;
+}
+
+.apDiv1 {
+    position: absolute;
+    left: 378px;
+    top: 29px;
+    width: 730px;
+    height: 50px;
+    z-index: 1;
+}
+
+.apDiv2 {
+    position: absolute;
+    left: 286px;
+    top: 120px;
+    width: 838px;
+    height: 326px;
+    z-index: 2;
+}

@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+@font-face {
+	font-family: 'Dancing Script';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Dancing Script Bold'), local('DancingScript-Bold'),
+		url('/DigNews/assets/Dancing Script Bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Dancing Script';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Dancing Script'), local('DancingScript'),
+		url('/DigNews/assets/Dancing Script.woff') format('woff');
+}
